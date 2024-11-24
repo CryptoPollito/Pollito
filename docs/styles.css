@@ -5,8 +5,11 @@ body {
     background: linear-gradient(90deg, #ffcc00, #ff9900);
 }
 #hero {
-    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    background: url('./img/Agent-IA.webp') no-repeat center center/cover;
     height: 100vh;
+}
+.title-shadow{
+	text-shadow: 1px 1px 0 white,-1px 1px 0 white,1px -1px 0 white,-1px -1px 0 white;
 }
 .timeline {
     position: relative;
