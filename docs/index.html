@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Pollito</title>
+    <title>El Pollito Coin 🐥</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Animation CSS (Animate.css) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <nav class="navbar navbar-expand-lg bg-pollito fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold text-white" href="#">🐥 El Pollito Coin</a>
+            <a class="navbar-brand fw-bold text-white" href="#">🐣 El Pollito Coin</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,51 +31,70 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="bg-warning text-center py-5">
+    <header id="hero" class="d-flex align-items-center text-center">
         <div class="container">
-            <h1 class="display-4 fw-bold text-white animate__animated animate__bounce">Bienvenue chez El Pollito Coin 🐥</h1>
-            <p class="text-white lead">La crypto la plus mignonne, fun et révolutionnaire de la blockchain !</p>
-            <a href="#buy" class="btn btn-danger btn-lg me-2 animate__animated animate__pulse animate__infinite">Acheter maintenant</a>
-            <a href="#about" class="btn btn-light btn-lg">En savoir plus</a>
+            <h1 class="display-3 fw-bold text-white">El Pollito Coin 🐥</h1>
+            <p class="lead text-white">La crypto la plus fun et adorable sur la blockchain !</p>
+            <a href="#buy" class="btn btn-primary btn-lg me-2">Acheter maintenant</a>
+            <a href="#about" class="btn btn-outline-light btn-lg">En savoir plus</a>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-4">À propos d'El Pollito</h2>
-            <p class="lead">El Pollito Coin est une crypto-monnaie hilarante créée pour propager joie et gains dans le monde entier.</p>
-            <img src="https://via.placeholder.com/150" alt="El Pollito Logo" class="rounded-circle animate__animated animate__rotateIn">
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold">À propos d'El Pollito</h2>
+            <p class="lead text-muted">Une crypto hilarante avec une mission simple : rendre la blockchain plus fun et accessible.</p>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <img src="https://via.placeholder.com/100" alt="Icon" class="mb-3">
+                        <h4>💡 Innovant</h4>
+                        <p>Des NFT uniques et des fonctionnalités inédites.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <img src="https://via.placeholder.com/100" alt="Icon" class="mb-3">
+                        <h4>🎉 Fun</h4>
+                        <p>Une communauté soudée et joyeuse.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <img src="https://via.placeholder.com/100" alt="Icon" class="mb-3">
+                        <h4>🚀 Accessible</h4>
+                        <p>Parfait pour les débutants en crypto.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Roadmap Section -->
     <section id="roadmap" class="bg-light py-5">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-4">🚀 Roadmap</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <div class="card-body">
-                            <h5 class="card-title">Phase 1 : L’éclosion</h5>
-                            <p class="card-text">Lancement du token et premiers partenariats. 🐣</p>
-                        </div>
+        <div class="container">
+            <h2 class="text-center fw-bold">🚀 Roadmap</h2>
+            <div class="timeline mt-5">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Phase 1: L'éclosion</h4>
+                        <p>Lancement du token et création de la communauté.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <div class="card-body">
-                            <h5 class="card-title">Phase 2 : Le couac mondial</h5>
-                            <p class="card-text">Développement de NFT et listage sur des exchanges majeurs. 🌎</p>
-                        </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Phase 2: Le couac mondial</h4>
+                        <p>Développement de NFT et campagnes marketing.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <div class="card-body">
-                            <h5 class="card-title">Phase 3 : Domination</h5>
-                            <p class="card-text">Création d’un jeu et lancement de la DAO communautaire. 👑</p>
-                        </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Phase 3: Domination</h4>
+                        <p>Création d’un jeu interactif "Pollito Run".</p>
                     </div>
                 </div>
             </div>
@@ -85,36 +104,30 @@
     <!-- Buy Section -->
     <section id="buy" class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold mb-4">Comment acheter El Pollito ?</h2>
-            <div class="row">
+            <h2 class="fw-bold">Acheter El Pollito</h2>
+            <div class="row mt-4">
                 <div class="col-md-4">
-                    <div class="step">
-                        <h3 class="fw-bold">1️⃣ Créer un wallet</h3>
-                        <p>Utilisez Metamask ou TrustWallet.</p>
-                    </div>
+                    <h4>1️⃣ Créer un Wallet</h4>
+                    <p>Utilisez Metamask ou Trust Wallet.</p>
                 </div>
                 <div class="col-md-4">
-                    <div class="step">
-                        <h3 class="fw-bold">2️⃣ Acheter des cryptos</h3>
-                        <p>Obtenez du BNB ou ETH sur un exchange.</p>
-                    </div>
+                    <h4>2️⃣ Acheter des cryptos</h4>
+                    <p>Achetez de l'ETH ou du BNB sur un exchange.</p>
                 </div>
                 <div class="col-md-4">
-                    <div class="step">
-                        <h3 class="fw-bold">3️⃣ Échanger</h3>
-                        <p>Utilisez PancakeSwap pour obtenir El Pollito.</p>
-                    </div>
+                    <h4>3️⃣ Échanger</h4>
+                    <p>Connectez votre wallet à PancakeSwap.</p>
                 </div>
             </div>
-            <a href="#" class="btn btn-danger btn-lg mt-4">Acheter maintenant</a>
+            <a href="#" class="btn btn-primary btn-lg mt-4">Acheter maintenant</a>
         </div>
     </section>
 
     <!-- FAQ Section -->
     <section id="faq" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center fw-bold mb-4">❓ FAQ</h2>
-            <div class="accordion" id="faqAccordion">
+            <h2 class="text-center fw-bold">❓ FAQ</h2>
+            <div class="accordion mt-4" id="faqAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
@@ -123,19 +136,19 @@
                     </h2>
                     <div id="faq1" class="accordion-collapse collapse show">
                         <div class="accordion-body">
-                            Une crypto hilarante et adorable qui mise sur l'humour et une communauté forte.
+                            Une crypto amusante qui combine humour et innovation.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                            Comment puis-je acheter El Pollito ?
+                            Comment puis-je acheter ?
                         </button>
                     </h2>
                     <div id="faq2" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            Suivez les étapes décrites dans la section Acheter.
+                            Consultez la section Acheter ci-dessus.
                         </div>
                     </div>
                 </div>
@@ -144,11 +157,15 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-warning text-center text-white py-3">
-        <p>© 2024 El Pollito Coin. Tous droits réservés. 🐥</p>
+    <footer class="bg-pollito text-center text-white py-3">
+        <p>© 2024 El Pollito Coin. Tous droits réservés 🐥</p>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
 </body>
 </html>
